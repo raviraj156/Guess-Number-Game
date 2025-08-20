@@ -17,7 +17,7 @@ btn.addEventListener("click", function(){
         chance = 5;
         btn.innerText = "Start Game";
         h3.innerHTML = "";
-        h3.style.color = "black";
+        h3.style.color = "green";
         random = Math.floor(Math.random()*range);
         // console.log(random);
     }
@@ -85,3 +85,4 @@ function checkInput(){
         span.innerText = "";
     }
 }
+
