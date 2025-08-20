@@ -7,13 +7,19 @@ body{
     background-repeat: no-repeat;
 }
 .container{
-    height: 20rem;
-    width: 30rem;
     display: flex;
+    justify-content: center;
+    align-items: center;      
+    height: 100vh; 
+}
+.main-container{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    margin: auto;
     flex-direction: column;
-    margin: 10% auto;
-    border-radius: 40px;
-    justify-content:baseline;
+    border: 5px solid #3D550C;
+    justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(20px); 
@@ -89,4 +95,5 @@ h1{
         margin-right: 5rem;
         margin-left: -5rem;
     }
+
 }
