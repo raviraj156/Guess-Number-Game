@@ -14,11 +14,10 @@ body{
 }
 .main-container{
     height: 50vh;
-    width: 70vw;
+    width: 50%;
     display: flex;
     margin: auto;
     flex-direction: column;
-    border: 5px solid #3D550C;
     border-radius: 40px;
     justify-content: center;
     align-items: center;
@@ -98,4 +97,5 @@ h1{
     }
 
 }
+
 
