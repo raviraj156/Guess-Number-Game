@@ -17,7 +17,7 @@ btn.addEventListener("click", function(){
         chance = 5;
         btn.innerText = "Start Game";
         h3.innerHTML = "";
-        h3.style.color = "green";
+        h3.style.color = "black";
         random = Math.floor(Math.random()*range);
         // console.log(random);
     }
@@ -29,6 +29,7 @@ btn.addEventListener("click", function(){
             if(inp.value==random){
                 h3.innerText = "Congratulation!! You guessed it right!!"
                 inp.value = "";
+                h3.style.color = "green";
                 btn.innerText = "Play Again";
                 inp.placeholder="Types your maximum guessing number here...";
                 // console.log(random);
@@ -85,4 +86,5 @@ function checkInput(){
         span.innerText = "";
     }
 }
+
 
