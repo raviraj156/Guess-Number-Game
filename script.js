@@ -27,9 +27,9 @@ btn.addEventListener("click", function(){
     else{
         if(chance>0){
             if(inp.value==random){
+                h3.style.color = "green";
                 h3.innerText = "Congratulation!! You guessed it right!!"
                 inp.value = "";
-                h3.style.color = "green";
                 btn.innerText = "Play Again";
                 inp.placeholder="Types your maximum guessing number here...";
                 // console.log(random);
@@ -86,5 +86,6 @@ function checkInput(){
         span.innerText = "";
     }
 }
+
 
 
